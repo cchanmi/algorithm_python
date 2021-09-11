@@ -1,4 +1,4 @@
-n = [3, 6, 8, 2, 1, 9, 5]
+n = [9, 5, 8, 3, 7]
 
 def seqSearch(key, low, high)
   for i in range(low, high+1):
