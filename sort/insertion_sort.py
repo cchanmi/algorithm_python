@@ -9,6 +9,6 @@
 
 
 if __name__ == '__main__':
-    data = [6,5, 6, 4, 3, 2, 1]
-    insertion_sort(data)
+    data = [2, 9, 5, 4, 8, 1]
+    insertion_sort(data)   # 1, 2, 4, 5, 8, 9
     print(data)     # return 값이 없는 함수이기 때문에 정렬을 한 후, 값을 출력하니 none값이 나오던 오류를 해결했다.
